@@ -1,0 +1,359 @@
+:root {
+    --primary: #db7093;
+    --secondary: #fff;
+    --btns: #db7093;
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgb(0,0,0,0.1);
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Montserrat, sans-serif;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+/*  TOP BAR */
+
+.top-bar {
+    background: var(--dark);
+    height: 2.8rem;
+    padding: 0.5rem 0rem;
+
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar .nav-link:hover {
+    color: palevioletred;
+}
+
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+
+.btn {
+    padding: 14px 18px;
+    border-width: 1px;
+    border-radius: 0;
+}
+
+.cart {
+    margin-right: 50px;
+}
+
+/*  SECTION */
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.card-effect {
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+    transform: translateY(5px);
+}
+
+.call-logo i {
+    font-size: 30px;
+    color: palevioletred;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+#shop-bag-logo {
+    font-size: 30px;
+    color: palevioletred;
+}
+
+/* btn-outline-dark CSS */
+
+.btn-outline-dark {
+    background-color: #fff;
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--primary);
+    border: none;
+}
+
+
+.container > a:hover {
+    color: palevioletred !important;
+}
+
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    left: -20px;
+    background-color: var(--primary);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* COLLECTION */
+
+.active-filter-btn {
+    background-color: black;
+    color: #fff;
+}
+
+.active-filter-btn {
+    border: none;
+}
+
+#collection .btn {
+    border: none;
+}
+
+#collection .btn:hover {
+    background-color: black;
+}
+
+.collection-img span {
+    background: black;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 11px;
+}
+
+.collection-img #discount {
+    border-radius: 0%;
+    width: 70px !important;
+}
+
+.collection-img img {
+    transition: all 0.3s ease;
+}
+
+.collection-img img:hover {
+    transform: scale(1.2);
+}
+
+.collection-img {
+    overflow: hidden;
+}
+
+.collection-list .btn {
+    font-size: 10px;
+}
+
+.collection-list .btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+
+/* SPECIAL SELECTION */
+
+.special-img span {
+    background-color: black;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 10px !important;
+}
+
+.special-list .btn {
+    font-size: 10px;
+}
+
+.special-img img {
+    transition: all 0.3s ease;
+}
+
+.special-img:hover img{
+    transform: scale(1.2);
+}
+
+.special-img .fas {
+    background-color: black;
+}
+
+.special-list .btn:hover {
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+/* BEST PRICE AND OFFERS */
+
+#offers {
+    background: url(./images/shopping3.jpg) center/cover no-repeat;
+}
+
+#offers .row {
+    min-height: 60vh;
+}
+
+.offers-content span {
+    font-size: 28px;
+}
+
+.offers-content h2 {
+    font-size: 60px;
+}
+
+.offers-content .btn {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.offers-content .btn:hover {
+    color: #fff;
+    background-color: black;
+}
+
+
+/*  CAROUSEL */
+
+
+
+/* BLOG */
+
+.card img {
+    transition: all 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+}
+
+.card-body .card-text {
+    color: var(--body);
+}
+
+.card-body .btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+/* ABOUT */
+
+#about h2 {
+    color: black;
+}
+
+/* NEWSLETTER */
+
+.input-group .btn {
+    border-radius:  30px 30px;
+    border-left: none;
+}
+
+.input-group .btn:hover {
+    color: #fff;
+}
+
+.input-group input {
+    border-color: var(--dark);
+    border-width: 1px;
+    border-right: none;
+}
+
+#newsletter {
+    background-color: black;
+}
+
+#newsletter p {
+    max-width: 600px;
+}
+
+#newsletter .input-group {
+    max-width: 500px;
+}
+
+#newsletter .form-control {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#newsletter .btn:hover {
+    background-color: var(--btns);
+}
+
+/* FOOTER */
+
+footer .brand {
+    letter-spacing: 2px;
+}
+
+footer .paragraph-text {
+    color: var(--body) !important;
+}
+
+footer  .footer-link {
+    color: var(--body) !important;
+}
+
+footer span {
+    color: var(--body) !important;
+}
+
+footer .social-link {
+    color: var(--body) !important;
+}
+
+footer a {
+    transition: color all 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--primary) !important;
+}
+
+
+
+/* MEDIA QURIES */
+
+@media (min-width: 1024px) {
+    .call-logo i {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 360px) {
+    .cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+}
